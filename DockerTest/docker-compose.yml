@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  dockertest:
-    image: dockertest
-    build:
-      context: .
-      dockerfile: Dockerfile
