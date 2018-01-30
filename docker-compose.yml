@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockernetcoretest:
+    image: dockernetcoretest
+    build:
+      context: ./DockerNetCoreTest
+      dockerfile: Dockerfile
